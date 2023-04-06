@@ -1,0 +1,116 @@
+@font-face {
+  @import url("https://fonts.googleapis.com/css2?family=Niconne&display=swap");
+}
+body {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+}
+
+#container {
+  display: flex;
+}
+
+.presentation {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  border: 2px solid rgba(94, 16, 16, 0.403);
+  padding: 30px;
+  margin-right: 124px;
+  height: 756px;
+  border-radius: 20px;
+  background-color: rgba(59, 134, 164, 0.235);
+  font-size: small;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  width: 100%;
+  font-size: x-large;
+}
+.balloon1 {
+  width: 30px;
+  height: 30px;
+  background: #069;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -o-border-radius: 100px;
+  border-radius: 100px;
+}
+
+.balloon2 {
+  width: 100px;
+  height: 100px;
+  background: rgb(73, 112, 131);
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -o-border-radius: 100px;
+  border-radius: 100px;
+}
+
+.balloon3 {
+  width: 200px;
+  height: 200px;
+  background: rgb(20, 149, 213);
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -o-border-radius: 100px;
+  border-radius: 100px;
+}
+.start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  border-radius: 20px;
+  font-size: 12px;
+  border-color: rgb(94, 134, 195);
+  background-color: rgba(74, 139, 189, 0.273);
+  font-family: "Niconne", cursive;
+  width: 160px;
+  height: 30px;
+}
+
+.welcome {
+  margin-top: 50px;
+  font-family: "Niconne", cursive;
+}
+
+.rest {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+}
+.balloon4 {
+  margin-left: 50px;
+  width: 90px;
+  height: 90px;
+  background: rgb(73, 112, 131);
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -o-border-radius: 100px;
+  border-radius: 100px;
+}
+
+.balloon5 {
+  width: 20px;
+  height: 20px;
+  background: rgb(105, 164, 194);
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -o-border-radius: 100px;
+  border-radius: 100px;
+}
+.balloon6 {
+  margin-right: 60px;
+  width: 60px;
+  height: 60px;
+  background: rgb(17, 105, 149);
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -o-border-radius: 100px;
+  border-radius: 100px;
+}

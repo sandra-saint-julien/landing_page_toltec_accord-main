@@ -1,0 +1,38 @@
+.information {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  border: 2px solid rgba(94, 16, 16, 0.403);
+  padding: 30px;
+  margin-right: 124px;
+  height: 756px;
+  border-radius: 20px;
+  background-color: rgba(195, 223, 234, 0.235);
+  font-size: small;
+  font-family: "Niconne", cursive;
+}
+
+.one {
+  border: 3px solid rgb(216, 203, 18);
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 150px;
+}
+
+.two {
+  border: 3px solid rgb(71, 237, 185);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.three {
+  border: 3px solid rgb(46, 147, 236);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.four {
+  border: 3px solid rgb(194, 137, 31);
+  border-radius: 20px;
+  padding: 20px;
+}
